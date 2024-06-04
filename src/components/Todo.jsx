@@ -8,7 +8,7 @@ export default function Todo() {
   return (
     <div>
       <Form todoList={todoList} setTodoList={setTodoList}  />
-      <TodoDisplay todoList={todoList} />
+      <TodoDisplay todoList={todoList} setTodoList={setTodoList}/>
     </div>
   );
 }
