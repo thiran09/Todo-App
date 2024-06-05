@@ -21,6 +21,7 @@
   border-radius: 15px;
   justify-content: space-between;
   box-shadow: 5px 5px 5px 0px #b0b0b0;
+  cursor: pointer;
 }
 
 .span {
@@ -68,4 +69,8 @@ button:hover:after {
   transform: skewX(-45deg) scale(1, 1);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.completed{
+  text-decoration: line-through;
 }
